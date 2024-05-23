@@ -14,11 +14,11 @@ const toggle = () => theme.toggleDark();
 
 <template>
   <div
-    class="flex items-center justify-between pl-7 py-2 pr-[5%] font-roboto-regular text-[15px] font-bold"
+    class="flex items-center justify-between  py-4 px-[6%] font-roboto-regular text-[15px] "
   >
     <div class="flex items-center">
       <img class="relative w-10 h-10" src="/icons8-letter-f-48.png" />
-      <!-- <span class="-m-3 capitalize text-3xl font-bold absolute top-[44px] left-[67px]">ermoir</span> -->
+      <!-- <span class="-m-3 capitalize text-3xl  absolute top-[44px] left-[67px]">ermoir</span> -->
     </div>
 
     <div class="ml-auto flex items-center gap-14">
@@ -55,7 +55,7 @@ const toggle = () => theme.toggleDark();
 
       <div class="flex items-center justify-center gap-5">
         <Menu
-          class="font-bold cursor-pointer md:hidden text-black dark:text-white"
+          class=" cursor-pointer md:hidden text-black dark:text-white"
         />
 
         <button class="hidden md:inline-block">
@@ -80,5 +80,5 @@ const toggle = () => theme.toggleDark();
       </div>
     </div>
   </div>
-  <hr />
+  
 </template>
