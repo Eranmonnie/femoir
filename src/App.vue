@@ -1,9 +1,8 @@
 <script setup>
-import Nav from '@/components/Nav.vue'; 
-
+import { useDark, useToggle } from "@vueuse/core";
+import Nav from "./components/Nav.vue";
 </script>
-
 <template>
-  <Nav />
- 
+ <Nav />
+  <RouterView />
 </template>
